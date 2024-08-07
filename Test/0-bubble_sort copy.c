@@ -42,16 +42,16 @@ void bubble_sort(int *array, size_t size)
 		{
 			if (array[j] > array[j + 1])
 			{
-                /* Swap the elements*/
+				/* Swap the elements*/
 				temp = array[j];
 				array[j] = array[j + 1];
 				array[j + 1] = temp;
 				swapped = 1;
-                /* Print the array after the swap*/
+				/* Print the array after the swap*/
 				print_array(array, size);
 			}
 		}
-        /* If no elements were swapped, the array is sorted */
+		/* If no elements were swapped, the array is sorted */
 		if (!swapped)
 			break;
 	}

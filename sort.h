@@ -23,16 +23,16 @@ void print_array(const int *array, size_t size);
 
 /*prototype*/
 
-/*1*/
+/*0*/
 void bubble_sort(int *array, size_t size);
 
-/*2*/
+/*1*/
 void insertion_sort_list(listint_t **list);
 
-/*3*/
+/*2*/
 void selection_sort(int *array, size_t size);
 
-/*4*/
+/*3*/
 void quick_sort(int *array, size_t size);
 
 #endif /* SORT_H */
