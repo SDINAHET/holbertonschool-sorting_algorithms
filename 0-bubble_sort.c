@@ -20,10 +20,15 @@ void bubble_sort(int *array, size_t size)
 		{
 			if (array[j] > array[j + 1])
 			{
-				/* Swap the elements*/
+				/* Swap the elements 3 step*/
+
+				/* Stocker l'élément temporairement*/
 				temp = array[j];
+				/*Déplacer l'élément suivant vers l'index actuel*/
 				array[j] = array[j + 1];
+				/*Placer l'élément stocké à la position suivante*/
 				array[j + 1] = temp;
+
 				/* Print the array after the swap*/
 				print_array(array, size);
 			}
