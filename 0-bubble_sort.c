@@ -35,3 +35,8 @@ void bubble_sort(int *array, size_t size)
 		}
 	}
 }
+/*i < size - 1 : Contrôle le nombre total de passes dans le tri à bulles.*/
+/* Cela garantit que chaque élément est correctement trié en size - 1 passes.*/
+
+/*j > size - i - 1 : Réduit la plage des comparaisons dans chaque passe, */
+/*évitant de comparer des éléments déjà triés à la fin du tableau.*/
