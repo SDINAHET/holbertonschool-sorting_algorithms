@@ -28,7 +28,8 @@ void selection_sort(int *array, size_t size)
 			}
 		}
 
-		/* Swap the found minimum element with the first element of the unsorted portion */
+		/* Swap the found minimum element with the first element of the*/
+		/*unsorted portion */
 		if (min_index != i)
 		{
 			swap(array, i, min_index);
@@ -56,6 +57,7 @@ void selection_sort(int *array, size_t size)
 void swap(int *array, size_t i, size_t j)
 {
 	int temp = array[i];
+
 	array[i] = array[j];
 	array[j] = temp;
 }
