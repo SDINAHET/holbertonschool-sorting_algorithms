@@ -23,21 +23,16 @@ void print_array(const int *array, size_t size);
 
 /*prototype*/
 
-/*0*/
+/*1*/
 void bubble_sort(int *array, size_t size);
 
-/*1*/
-void insertion_sort_list(listint_t **list);
-void swap_nodes(listint_t **list, listint_t *node1, listint_t *node2);
-
 /*2*/
-void selection_sort(int *array, size_t size);
-void swap(int *array, size_t i, size_t j);
+void insertion_sort_list(listint_t **list);
 
 /*3*/
+void selection_sort(int *array, size_t size);
+
+/*4*/
 void quick_sort(int *array, size_t size);
-void swap(int *array, size_t i, size_t j)
-size_t lomuto_partition(int *array, size_t low, size_t high)
-void quick_sort_rec(int *array, size_t low, size_t high);
 
 #endif /* SORT_H */
