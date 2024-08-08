@@ -25,6 +25,7 @@ void quick_sort(int *array, size_t size)
 void swap(int *array, size_t i, size_t j)
 {
 	int temp = array[i];
+
 	array[i] = array[j];
 	array[j] = temp;
 }
@@ -65,7 +66,7 @@ size_t lomuto_partition(int *array, size_t low, size_t high)
 	}
 	printf("\n");
 
-	return i;
+	return (i);
 }
 
 /**
