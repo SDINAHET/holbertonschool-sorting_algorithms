@@ -15,12 +15,12 @@ void selection_sort(int *array, size_t size)
 		return;
 
 	/* Iterate through each element in the array */
-	for (i = 0; i < size - 1; ++i)
+	for (i = 0; i < size - 1; i++)
 	{
 		min_index = i;
 
 		/* Find the index of the smallest element in the unsorted portion */
-		for (j = i + 1; j < size; ++j)
+		for (j = i + 1; j < size; j++)
 		{
 			if (array[j] < array[min_index])
 			{
@@ -35,7 +35,7 @@ void selection_sort(int *array, size_t size)
 			swap(array, i, min_index);
 
 			/* Print the array after each swap */
-			for (j = 0; j < size; ++j)
+			for (j = 0; j < size; j++)
 			{
 				printf("%d", array[j]);
 				if (j < size - 1)
