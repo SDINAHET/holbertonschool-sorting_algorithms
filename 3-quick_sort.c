@@ -27,7 +27,7 @@ void swap(int *array, size_t i, size_t j)
 size_t lomuto_partition(int *array, size_t low, size_t high)
 {
 	int pivot = array[high];
-	size_t size = sizeof(array);
+	/*size_t size = sizeof(array);*/
 	size_t i = low;
 	size_t j;
 
@@ -41,7 +41,8 @@ size_t lomuto_partition(int *array, size_t low, size_t high)
 				/* Print array after swap */
 				/*print_array(array, high - low + 1); error*/
 				/*print_array(array, size + 2);*/
-				print_array(array, size + 2);
+				/*print_array(array, size + 2);*/
+				print_array(array, 10);
 			}
 			i++;
 		}
@@ -52,7 +53,8 @@ size_t lomuto_partition(int *array, size_t low, size_t high)
 		swap(array, i, high);
 		/* Print array after swap */
 		/*print_array(array, high - low + 1);  error*/
-		print_array(array, size + 2);
+		/*print_array(array, size + 2);*/
+		print_array(array, 10);
 	}
 
 	/* Print the array after the partitioning is done */
