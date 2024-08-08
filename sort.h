@@ -36,53 +36,9 @@ void selection_sort(int *array, size_t size);
 void swap(int *array, size_t i, size_t j);
 
 /*3*/
-/*void quick_sort(int *array, size_t size);*/
-/*void print_array(const int *array, size_t size);*/
-/*void swap(int *array, size_t i, size_t j);*/
-/*int lomuto_partition(int *array, size_t low, size_t high, size_t size);*/
-/*void quick_rec(int *array, size_t low, size_t high);*/
-
 void swap(int *array, size_t i, size_t j);
 int lomuto_partition(int *array, int low, int high, size_t size);
 void quick_rec(int *array, int low, int high, size_t size);
 void quick_sort(int *array, size_t size);
-/*void print_array(const int *array, size_t size);*/
-
-
-
-
-
-/*void quick_sort(int *array, size_t size);*/
-/*void swap(int *array, size_t i, size_t j);*/
-/*size_t lomuto_partition(int *array, size_t low, size_t high);*/
-/*void quick_recursive(int *array, size_t low, size_t high);*/
-/*void quick_sort_rec(int *array, size_t low, size_t high);*/
-/*void quick_sort_helper(int *array, int low, int high, size_t size);*/
-/*int lomuto_partition(int *array, int low, int high, size_t size);*/
-/*void print_array(int *array, size_t size);*/
-/*int partition(int *array, size_t low, size_t high);*/
-/*void swap(int *a, int *b);*/
-
-/*void print_subarray(const int *array, size_t low, size_t high);*/
-/*void print_partition(const int *array, size_t low, size_t high);*/
-
-/*void print_array(const int *array, size_t size);*/
-/*void swap(int *array, size_t i, size_t j);*/
-/*size_t lomuto_partition(int *array, size_t low, size_t high)*/
-/*void quick_sort_rec(int *array, size_t low, size_t high)*/
-/*void quick_sort(int *array, size_t size)*/
-
-/*void print_array(int *array, size_t size);*/
-/*void swap(int *a, int *b);*/
-/*int partition(int *array, int low, int high, size_t size);*/
-/*void quick_sort_recursive(int *array, int low, int high, size_t size);*/
-/*void quick_sort(int *array, size_t size);*/
-/* Function prototypes */
-/*void print_array(int *array, size_t size);*/
-/*void swap(int *a, int *b);*/
-/*int partition(int *array, int low, int high, size_t size);*/
-/*void quick_sort_recursive(int *array, int low, int high, size_t size);*/
-/*void quick_sort(int *array, size_t size);*/
-
 
 #endif /* SORT_H */
